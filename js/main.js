@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 	//adding a new sample entry
 	$('#add_entry').click(function(){
+		console.log("Hello, you clicked me?")
 		// var name = $('.bus_registration_number').val();
 		var name = 'Minu';
 		var phoneno = '9976448668';
