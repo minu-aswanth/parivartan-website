@@ -1,0 +1,291 @@
+body{
+	overflow-x: hidden;
+}
+
+.row{
+	margin: 0;
+}
+
+#opening-section{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url('../images/background.png');
+	background-size: 100% 100%;
+}
+
+#logo{
+	position: absolute;
+	height: 50%;
+	left: 37%;
+	top:17%;
+}
+
+#opening-heading{
+	font-family: 'Montserrat';
+	font-size: 350%;
+	color: #98c13d;
+	text-align: center;
+}
+
+#opening-heading-row{
+	position: absolute;
+	top: 70%;
+}
+
+#parivartan-description-container{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	height: 40%;
+	width: 100%;
+	background-color: #cccccc;
+}
+
+#parivartan-description-row{
+	position: relative;
+	top: 20%;
+}
+
+#parivartan-description{
+	border-top: 5px solid #98c13d;
+	border-bottom: 5px solid #98c13d;
+	font-family: 'Lato';
+	font-weight: lighter;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px; 
+}
+
+#change-numbers-container{
+	position: absolute;
+	top: 140%;
+	left: 0;
+	height: 40%;
+	width: 100%;
+}
+
+#change-numbers-row{
+	position: relative;
+	top: 20%;
+}
+
+.change-numbers-number{
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	color: #98c13d;
+	font-size: 500%;
+}
+
+.change-numbers-text{
+	font-family: 'Open Sans';
+	font-weight: bold;
+	text-align: center;
+	font-size: 200%;
+}
+
+#products-container{
+	position: absolute;
+	top: 180%;
+	left: 0;
+	height: 130%;
+	width: 100%;
+	background-color: #cccccc;
+}
+
+#products-heading{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	font-size: 250%;
+}
+
+#products-row{
+	text-align: center;
+}
+
+.product-headings{
+	font-weight: bold;
+	font-family: 'Open Sans';
+	font-size: 200%;
+}
+
+.product-desc{
+	font-family: 'Lato';
+	font-weight: lighter;
+	text-align: justify;
+}
+
+.product-column{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#locations-container{
+	position: absolute;
+	top: 310%;
+	left: 0;
+	height: 70%;
+	width: 100%;
+}
+
+#locations-heading{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	font-size: 250%;
+}
+
+.location-headings{
+	font-weight: lighter;
+	font-family: 'Lato';
+	text-align: center;
+}
+
+#values-container{
+	position: absolute;
+	top: 380%;
+	left: 0;
+	height: 120%;
+	width: 100%;
+	background-color: #cccccc;
+}
+
+#values-heading{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	font-size: 250%;
+}
+
+.values-row{
+	text-align: center;
+}
+
+.values-image-wrapper{
+	width: 40%;
+	margin: auto;
+}
+
+.value-headings{
+	font-weight: bold;
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 150%;
+}
+
+#team-container{
+	position: absolute;
+	top: 500%;
+	left: 0;
+	height: 130%;
+	width: 100%;
+}
+
+#team-heading{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	font-size: 250%;
+}
+
+.team-row{
+	text-align: center;
+}
+
+.team-image-wrapper{
+	width: 55%;
+	margin: auto;
+}
+
+.team-name{
+	font-weight: bold;
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 150%;
+}
+
+#partners-container{
+	position: absolute;
+	top: 630%;
+	left: 0;
+	height: 80%;
+	width: 100%;
+	background-color: #cccccc;
+}
+
+#partners-heading{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	font-size: 250%;
+}
+
+.partner-image-wrapper{
+	width: 55%;
+	margin: auto;
+}
+
+.carousel-indicators{
+	bottom: -70px;
+}
+
+#footer-container{
+	position: absolute;
+	top: 710%;
+	left: 0;
+	height: 60%;
+	width: 100%;
+	background-color: #000;
+}
+
+#footer-row{
+	border-top: 4px solid #98c13d;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 4%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.footer-headings{
+	font-family: 'Open Sans';
+	font-weight: bold;
+	color: white;
+	font-size: 200%;
+}
+
+.footer-content{
+	font-family: 'Lato';
+	font-weight: lighter;
+	color: white;
+	font-size: 120%;
+}
+
+.social-media-icons{
+	text-align: right;
+	width: 8%;
+	float: right;
+}
+
+#copyright-text{
+	font-family: 'Open Sans';
+	font-weight: bold;
+	color: white;
+	font-size: 150%;
+	margin-right: 5%;
+	text-align: right;
+}
