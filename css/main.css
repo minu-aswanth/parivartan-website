@@ -2,6 +2,39 @@ body{
 	overflow-x: hidden;
 }
 
+nav{
+	z-index: 1;
+}
+
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	border-bottom: 2px solid white;
+	margin-right: 30px;
+	padding-bottom: 7px;
+}
+
+.navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse  {
+        display: block;
+    }
+}
+
 .row{
 	margin: 0;
 }
@@ -153,7 +186,7 @@ body{
 	position: absolute;
 	top: 380%;
 	left: 0;
-	height: 120%;
+	height: 100%;
 	width: 100%;
 	background-color: #cccccc;
 }
@@ -185,7 +218,7 @@ body{
 
 #team-container{
 	position: absolute;
-	top: 500%;
+	top: 480%;
 	left: 0;
 	height: 130%;
 	width: 100%;
@@ -218,7 +251,7 @@ body{
 
 #partners-container{
 	position: absolute;
-	top: 630%;
+	top: 610%;
 	left: 0;
 	height: 80%;
 	width: 100%;
@@ -245,7 +278,7 @@ body{
 
 #footer-container{
 	position: absolute;
-	top: 710%;
+	top: 690%;
 	left: 0;
 	height: 60%;
 	width: 100%;
@@ -288,4 +321,8 @@ body{
 	font-size: 150%;
 	margin-right: 5%;
 	text-align: right;
+}
+
+#footer-logo{
+	width: 80%;
 }

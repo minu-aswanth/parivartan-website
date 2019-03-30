@@ -1,0 +1,267 @@
+body{
+	overflow-x: hidden;
+}
+
+nav{
+	z-index: 1;
+}
+
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	border-bottom: 2px solid white;
+	margin-right: 30px;
+	padding-bottom: 7px;
+}
+
+.navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse  {
+        display: block;
+    }
+}
+
+.row{
+	margin: 0;
+}
+
+#opening-section{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url('../images/background2.png');
+	background-size: 100% 100%;
+}
+
+#logo{
+	position: absolute;
+	height: 50%;
+	left: 37%;
+	top:17%;
+}
+
+#opening-heading{
+	font-family: 'Montserrat';
+	font-size: 350%;
+	color: #98c13d;
+	text-align: center;
+}
+
+#opening-heading-row{
+	position: absolute;
+	top: 70%;
+}
+
+#parivartan-description-container{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	height: 40%;
+	width: 100%;
+	background-color: #cccccc;
+}
+
+#parivartan-description-row{
+	position: relative;
+	top: 20%;
+}
+
+#parivartan-description{
+	font-family: 'Lato';
+	font-weight: lighter;
+	text-align: justify;
+}
+
+#registerSchoolButton{
+	text-align: center;
+	font-family: 'Lato';
+}
+
+#registerSchoolButton button{
+	border-radius: 10px;
+}
+
+#offerings-container{
+	position: absolute;
+	top: 140%;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+}
+
+#offerings-heading{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	font-size: 250%;
+}
+
+.offerings-row{
+	text-align: center;
+}
+
+.offerings-image-wrapper{
+	width: 40%;
+	margin: auto;
+}
+
+.offering-headings{
+	font-weight: bold;
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 150%;
+}
+
+#upcoming-camps-container{
+	position: absolute;
+	top: 240%;
+	left: 0;
+	height: 70%;
+	width: 100%;
+	background-color: #ccc;
+}
+
+#upcoming-camps-heading{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	font-size: 250%;
+}
+
+.upcoming-camps-headings{
+	font-weight: lighter;
+	font-family: 'Lato';
+	text-align: center;
+}
+
+#team-container{
+	position: absolute;
+	top: 310%;
+	left: 0;
+	height: 130%;
+	width: 100%;
+}
+
+#team-heading{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	font-size: 250%;
+}
+
+.team-row{
+	text-align: center;
+}
+
+.team-image-wrapper{
+	width: 55%;
+	margin: auto;
+}
+
+.team-name{
+	font-weight: bold;
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 150%;
+}
+
+#lookback-container{
+	position: absolute;
+	top: 440%;
+	left: 0;
+	height: 80%;
+	width: 100%;
+	background-color: #cccccc;
+}
+
+#lookback-heading{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	font-size: 250%;
+}
+
+.lookback-image-wrapper{
+	width: 55%;
+	margin: auto;
+}
+
+.carousel-indicators{
+	bottom: -70px;
+}
+
+#footer-container{
+	position: absolute;
+	top: 520%;
+	left: 0;
+	height: 60%;
+	width: 100%;
+	background-color: #000;
+}
+
+#footer-row{
+	border-top: 4px solid #98c13d;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 4%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.footer-headings{
+	font-family: 'Open Sans';
+	font-weight: bold;
+	color: white;
+	font-size: 200%;
+}
+
+.footer-content{
+	font-family: 'Lato';
+	font-weight: lighter;
+	color: white;
+	font-size: 120%;
+}
+
+.social-media-icons{
+	text-align: right;
+	width: 8%;
+	float: right;
+}
+
+#copyright-text{
+	font-family: 'Open Sans';
+	font-weight: bold;
+	color: white;
+	font-size: 150%;
+	margin-right: 5%;
+	text-align: right;
+}
+
+#footer-logo{
+	width: 80%;
+}
