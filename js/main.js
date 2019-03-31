@@ -46,6 +46,15 @@ $(document).ready(function() {
 	   }
 	});
 
-	
+	$(document).scroll(function () {
+	    var $nav = $(".navbar-fixed-top");
+	    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	    if($(this).scrollTop() > $nav.height()){
+	    	$('.navbar-default .navbar-nav>li>a').css("color","#000");
+	    }
+	    else{
+	    	$('.navbar-default .navbar-nav>li>a').css("color","#fff");
+	    }
+  	});
 
 });
