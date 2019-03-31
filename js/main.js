@@ -28,4 +28,24 @@ $(document).ready(function() {
 		});
 	});
 
+	$(window).scroll(function() {
+   		var hT = $('#opening-heading').offset().top,
+	    	hH = $('#opening-heading').outerHeight(),
+	      	wH = $(window).height(),
+	      	wS = $(this).scrollTop();
+	   	if (wS > (hT+hH-wH)){
+	       	setTimeout(function(){
+			    document.getElementById("changeAgents").innerHTML = 45;
+			}, 1000);
+			setTimeout(function(){
+			    document.getElementById("partnerNumbers").innerHTML = 3;
+			}, 1000);
+			setTimeout(function(){
+			    document.getElementById("communityNumbers").innerHTML = 100;
+			}, 1000);
+	   }
+	});
+
+	
+
 });

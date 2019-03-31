@@ -3,20 +3,22 @@
 <head>
 	<title>Parivartan</title>
 
-	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/odometer/odometer-theme-default.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="plugins/odometer/odometer.min.js"></script>
 	<script src="js/main.js" type="text/javascript"></script>
 </head>
 <body>
 	<nav class="navbar navbar-default">
 	    <div class="container text-center">
-	        <div id="navbar" class="navbar-collapse">
+	        <div id="navbar" class="navbar-collapse topBotomBordersOut">
 	            <ul class="nav navbar-nav">
 	                <li><a href="./">ABOUT US</a></li>
 	                <li><a href="highschoolcamps">HIGH SCHOOL CAMPS</a></li>
@@ -31,7 +33,7 @@
 			<div id="logo_container"><img id="logo" src="images/logomark_dark_bg.png"></div>
 			<div id="opening-heading-row" class="row">
 				<div class="col-sm-2"></div>
-				<div class="col-sm-8" id="opening-heading"><b>Developing Leaders, Innovators and Entrepreneurs of tomorrow</b></div>	
+				<div class="col-sm-8" id="opening-heading">Developing Leaders, Innovators and Entrepreneurs of tomorrow</div>	
 			</div>
 		</div>
 		<div id="parivartan-description-container">
@@ -44,17 +46,17 @@
 			<div id="change-numbers-row" class="row">
 				<div class="col-sm-1"></div>
 				<div class="col-sm-3">
-					<div class="change-numbers-number">33+</div>
+					<div class="change-numbers-number"><div id="changeAgents" class="odometer">00</div>+</div>
 					<div class="change-numbers-text">Change Agents</div>
 				</div>
 				<!-- <div class="col-sm-1"></div> -->
 				<div class="col-sm-3">
-					<div class="change-numbers-number">3+</div>
+					<div class="change-numbers-number"><div id="partnerNumbers" class="odometer">0</div>+</div>
 					<div class="change-numbers-text">Partners</div>
 				</div>
 				<!-- <div class="col-sm-1"></div> -->
 				<div class="col-sm-3">
-					<div class="change-numbers-number">100+</div>
+					<div class="change-numbers-number"><div id="communityNumbers" class="odometer">0</div>+</div>
 					<div class="change-numbers-text">Community Members</div>
 				</div>
 			</div>
@@ -97,43 +99,103 @@
 			</div>
 			<div class="row values-row">
 				<div class="col-sm-4">
-					<div class="values-image-wrapper">
-						<img class="img-responsive" src="images/values-01.png">
+					<div class="flip-card">
+					  	<div class="flip-card-inner">
+					    	<div class="flip-card-front">
+					      		<div class="values-image-wrapper">
+									<img class="img-responsive" src="images/values-01.png">
+								</div>
+								<div class="value-headings">Empathy for Others</div>
+					    	</div>
+					    	<div class="flip-card-back">
+					      		<h1>EMPATHY</h1> 
+					      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+					    	</div>
+					  	</div>
 					</div>
-					<div class="value-headings">Empathy for Others</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="values-image-wrapper">
-						<img class="img-responsive" src="images/values-02.png">
+					<div class="flip-card">
+					  	<div class="flip-card-inner">
+					    	<div class="flip-card-front">
+					      		<div class="values-image-wrapper">
+									<img class="img-responsive" src="images/values-02.png">
+								</div>
+								<div class="value-headings">Quest for Excellence</div>
+					    	</div>
+					    	<div class="flip-card-back">
+					      		<h1>EMPATHY</h1> 
+					      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+					    	</div>
+					  	</div>
 					</div>
-					<div class="value-headings">Quest for Excellence</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="values-image-wrapper">
-						<img class="img-responsive" src="images/values-03.png">
+					<div class="flip-card">
+					  	<div class="flip-card-inner">
+					    	<div class="flip-card-front">
+					      		<div class="values-image-wrapper">
+									<img class="img-responsive" src="images/values-03.png">
+								</div>
+								<div class="value-headings">Deliberate Inclusion</div>
+					    	</div>
+					    	<div class="flip-card-back">
+					      		<h1>EMPATHY</h1> 
+					      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+					    	</div>
+					  	</div>
 					</div>
-					<div class="value-headings">Deliberate Inclusion</div>
 				</div>
 			</div>
 			<br><br>
-			<div class="row values-row">
+			<div class="row values-row values-row-2">
 				<div class="col-sm-4">
-					<div class="values-image-wrapper">
-						<img class="img-responsive" src="images/values-04.png">
+					<div class="flip-card">
+					  	<div class="flip-card-inner">
+					    	<div class="flip-card-front">
+					      		<div class="values-image-wrapper">
+									<img class="img-responsive" src="images/values-04.png">
+								</div>
+								<div class="value-headings">Unyielding Integrity</div>
+					    	</div>
+					    	<div class="flip-card-back">
+					      		<h1>EMPATHY</h1> 
+					      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+					    	</div>
+					  	</div>
 					</div>
-					<div class="value-headings">Unyielding Integrity</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="values-image-wrapper">
-						<img class="img-responsive" src="images/values-05.png">
+					<div class="flip-card">
+					  	<div class="flip-card-inner">
+					    	<div class="flip-card-front">
+					      		<div class="values-image-wrapper">
+									<img class="img-responsive" src="images/values-05.png">
+								</div>
+								<div class="value-headings">Purposeful Living</div>
+					    	</div>
+					    	<div class="flip-card-back">
+					      		<h1>EMPATHY</h1> 
+					      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+					    	</div>
+					  	</div>
 					</div>
-					<div class="value-headings">Purposeful Living</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="values-image-wrapper">
-						<img class="img-responsive" src="images/values-06.png">
+					<div class="flip-card">
+					  	<div class="flip-card-inner">
+					    	<div class="flip-card-front">
+					      		<div class="values-image-wrapper">
+									<img class="img-responsive" src="images/values-06.png">
+								</div>
+								<div class="value-headings">Creative Confidence</div>
+					    	</div>
+					    	<div class="flip-card-back">
+					      		<h1>EMPATHY</h1> 
+					      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+					    	</div>
+					  	</div>
 					</div>
-					<div class="value-headings">Creative Confidence</div>
 				</div>
 			</div>
 		</div>
@@ -193,7 +255,22 @@
 			<div class="row">
 				<div id="partners-heading" class="col-xs-12">OUR PARTNERS</div>
 			</div>
-			<div id="partnerCarousel" class="carousel slide" data-ride="carousel">
+			<div class="col-sm-4">
+				<div class="partner-image-wrapper">
+					<img class="img-responsive" src="images/partner_logos-01.png">
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="partner-image-wrapper">
+					<img class="img-responsive" src="images/partner_logos-02.png">
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="partner-image-wrapper">
+					<img class="img-responsive" src="images/partner_logos-03.png">
+				</div>
+			</div>
+			<!-- <div id="partnerCarousel" class="carousel slide" data-ride="carousel">
 			    <ol class="carousel-indicators">
 			    	<li data-target="#partnerCarousel" data-slide-to="0" class="active"></li>
 			      	<li data-target="#partnerCarousel" data-slide-to="1"></li>
@@ -204,17 +281,17 @@
 			    	<div class="item active">
 			        	<div class="col-sm-4">
 							<div class="partner-image-wrapper">
-								<img class="img-responsive" src="images/team-04.png">
+								<img class="img-responsive" src="images/partner_logos-01.png">
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="partner-image-wrapper">
-								<img class="img-responsive" src="images/team-04.png">
+								<img class="img-responsive" src="images/partner_logos-02.png">
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="partner-image-wrapper">
-								<img class="img-responsive" src="images/team-04.png">
+								<img class="img-responsive" src="images/partner_logos-03.png">
 							</div>
 						</div>
 			      	</div>
@@ -255,7 +332,7 @@
 						</div>
 			      	</div>
 			    </div>
-			</div>
+			</div> -->
 		</div>
 
 		<div id="footer-container">
