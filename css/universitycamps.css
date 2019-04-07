@@ -85,7 +85,7 @@ div.topBotomBordersOut a:hover:after
 	height: 100%;
 	width: 100%;
 	background-image: url('../images/background3.jpg');
-	background-size: 100% 100%;
+	background-size: 100%;
 }
 
 #logo{
@@ -227,9 +227,13 @@ div.topBotomBordersOut a:hover:after
 	font-size: 150%;
 }
 
+.team-name-desc{
+	font-size: 80%;
+}
+
 #watch-container{
 	position: absolute;
-	top: 440%;
+	top: 445%;
 	left: 0;
 	height: 30%;
 	width: 100%;
@@ -246,7 +250,7 @@ div.topBotomBordersOut a:hover:after
 
 #footer-container{
 	position: absolute;
-	top: 470%;
+	top: 475%;
 	left: 0;
 	height: 60%;
 	width: 100%;

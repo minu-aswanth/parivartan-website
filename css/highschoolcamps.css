@@ -85,7 +85,7 @@ div.topBotomBordersOut a:hover:after
 	height: 100%;
 	width: 100%;
 	background-image: url('../images/background2.png');
-	background-size: 100% 100%;
+	background-size: 100%;
 }
 
 #logo{
@@ -246,7 +246,7 @@ div.topBotomBordersOut a:hover:after
 }
 
 .lookback-image-wrapper{
-	width: 55%;
+	width: 90%;
 	margin: auto;
 }
 
