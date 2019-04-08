@@ -124,7 +124,8 @@ div.topBotomBordersOut a:hover:after
 #parivartan-description{
 	font-family: 'Lato';
 	font-weight: lighter;
-	text-align: justify;
+	text-align: center;
+	font-size: 130%;
 }
 
 #registerSchoolButton{

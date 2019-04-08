@@ -84,7 +84,7 @@ div.topBotomBordersOut a:hover:after
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url('../images/background3.jpg');
+	background-image: url('../images/background3.png');
 	background-size: 100%;
 }
 
@@ -124,7 +124,8 @@ div.topBotomBordersOut a:hover:after
 #parivartan-description{
 	font-family: 'Lato';
 	font-weight: lighter;
-	text-align: justify;
+	text-align: center;
+	font-size: 130%;
 }
 
 #registerYourselfButton{
